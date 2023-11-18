@@ -1,0 +1,115 @@
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #61dafb;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4fa3d1;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  
+
+
+
+  /* src/LandingPage.css */
+.landing-page {
+    text-align: center;
+    padding: 40px;
+    background-color: #282c34;
+    color: white;
+    
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  button {
+    background-color: #61dafb;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #4fa3d1;
+  }
+  
+
+
+
+
+
+  .tilted-container {
+    position: relative;
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+
+  .tilted-background {
+    width: 100vw;
+    height: 50vh;
+    background-color: #3498db;
+    transform: skewY(-10deg); /* Adjust the angle as needed */
+    transform-origin: bottom left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Style for the content */
+  .content {
+    padding: 20px;
+    background-color: red;
+    /* Other styles for the content */
+  }
